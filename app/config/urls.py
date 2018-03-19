@@ -21,4 +21,5 @@ urlpatterns = [
 
     path('', include('snippets.urls')),
     path('snippets/', include('snippets.urls')),
+    path('users/', include('members.urls')),
 ]
