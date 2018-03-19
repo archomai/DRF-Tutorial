@@ -8,6 +8,7 @@ __all__ = (
     'SnippetDetail',
 )
 
+
 class SnippetList(mixins.ListModelMixin,
                   mixins.CreateModelMixin,
                   generics.GenericAPIView):
